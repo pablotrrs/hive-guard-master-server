@@ -366,7 +366,7 @@ function cleanupAndExit() {
     console.error('Error when closing WebSocket server:', error);
   }
 
-  console.log('All workers have been closed');
+ console.log('All workers have been closed');
   console.log('Bye!');
 
   process.exit();
